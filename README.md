@@ -5,27 +5,27 @@ Steps on Linux:
 
 ###  install ipykernel virtual env
 
-``sh
+```sh
 conda create -n myenv python=3.6
 conda install ipykernel 
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 conda install -c conda-forge ipywidgets
 pip install -r requirements.txt 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
-``
+```
 
-### Run jupyter notebook and select the created vm
-``sh
+### Run jupyter notebook and select the created venv
+```sh
 jupyter notebook
-``
+```
 myenv
 
 ### Delete env
-``sh
+```sh
 conda remove -n myenv --all
-``
+```
 
 ###  Verify that the environment was removed
-``sh
+```sh
 conda info --envs
-``
+```
