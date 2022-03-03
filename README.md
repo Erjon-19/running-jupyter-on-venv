@@ -1,7 +1,7 @@
 # running-jupyter-on-venv
 This creates an isolated python virtual environment in witch you can run jupyter notebook and avoid confusion of different version python libs and also with system libs 
 
-Steps on Linux:
+Steps on Linux (assume that we have jupyter and miniconda installed on our system):
 
 ###  install ipykernel virtual env
 
